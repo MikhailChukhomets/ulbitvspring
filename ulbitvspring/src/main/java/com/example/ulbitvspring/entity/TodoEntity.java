@@ -5,7 +5,6 @@ import com.example.ulbitvspring.model.User;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "todo")
 public class TodoEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
